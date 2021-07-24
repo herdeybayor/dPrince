@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row img {
+    width: 25%;
+}
+
+.code-img {
+    float: left;
+    margin-right: 30px;
+}
+
+.graphic-img {
+    float: right;
+    margin-left: 30px;
+}
+
+.profile-img {
+    margin-top: 50px;
+    filter: drop-shadow(2px 4px 5px black);
+}
+
+.profile p {
+    width: 30%;
+    margin: 0 auto;
+}
+
+hr {
+    width: 5%;
+    border: none;
+    border-top: dotted 10px #EAF6F6;
+    margin: 80px auto;
+}
+
+.contact-me p {
+    margin-bottom: 100px;
+}
+
+.contact-me a {
+    background-color: #11999E;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.bottom-container {
+    margin-top: 150px;
+    background-color: #66BFBF;
+    padding: 50px 0 20px 0;
+    color: white;
+}
+
+.footer-link {
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: bolder;
+    transition: 0.5s;
+    color: white;
+}
+
+.contact-me a:hover {
+    background-color: white;
+    color: #11999E;
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 2px solid #11999E;
+}
+
+.footer-link:hover {
+    color: #11999E;
+}
+
+@media only screen and (max-width: 620px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    .mountain {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    h2 {
+        font-size: 30px;
+
+    }
+
+    .top-cloud {
+        right: 10px;
+    }
+
+    .bottom-cloud {
+        display: none;
+    }
+
+    .profile p {
+        width: 70%;
+    }
+
+    hr {
+        width: 10%;
+        border-top: 5px dotted #EAF6F6;
+        margin: 40px auto;
+    }
+
+    .skill-row {
+        text-align: center;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .skill-row img {
+        width: 90%;
+        margin: 0 5%;
+        display: block;
+    }
+
+    .contact-me p {
+        margin-bottom: 50px;
+    }
+
+    .bottom-container {
+        margin-top: 50px;
+        padding: 20px 0 5px 0;
+    }
+
+    .footer-link {
+        margin-right: 10px;
+    }
+}
