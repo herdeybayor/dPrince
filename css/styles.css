@@ -73,6 +73,7 @@ a {
 .profile-img {
     margin-top: 50px;
     filter: drop-shadow(2px 4px 5px black);
+    border-radius: 50%;
 }
 
 .profile p {
